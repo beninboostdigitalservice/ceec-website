@@ -63,7 +63,7 @@ const Footer = () => (
           <h4 className="font-display text-lg font-semibold mb-4">Don</h4>
           <div className="flex flex-col gap-3 text-sm">
             Faire par Bénin Boost Digital Service 
-            RCCM : RB/ABY/25A31089
+            IFU : 0202442835502
             <a href="mailto:beninboostdigitalservice@gmail.com" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
               <Mail size={16} /> 
             </a>
@@ -71,7 +71,7 @@ const Footer = () => (
               <Phone size={16} /> +229 01 45 77 62 56
             </a>
             <a href="tel:+22968226924" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-              <Phone size={16} /> +229 68 22 69 24
+              <Phone size={16} /> +229 01 92 74 33 08
             </a>
             <a href="https://beninboostdigitalservice.github.io/b-ninboost3/" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
               https://beninboostdigitalservice.github.io/b-ninboost3/
