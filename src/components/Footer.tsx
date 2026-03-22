@@ -56,9 +56,8 @@ const Footer = () => (
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Don */}
+         {/* Don */}
         <div>
           <h4 className="font-display text-lg font-semibold mb-4">Don</h4>
           <div className="flex flex-col gap-3 text-sm">
@@ -81,6 +80,7 @@ const Footer = () => (
             </div>
           </div>
         </div>
+        
       </div>
 
       <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-sm text-primary-foreground/50">
