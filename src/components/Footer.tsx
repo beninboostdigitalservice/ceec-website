@@ -5,7 +5,7 @@ import logoFeunstim from "@/assets/logo-feunstim.jpg";
 
 const Footer = () => (
   <footer className="gradient-hero text-primary-foreground">
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto px-3 py-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Brand */}
         <div>
@@ -61,16 +61,12 @@ const Footer = () => (
         <div>
           <h4 className="font-display text-lg font-semibold mb-4">Don</h4>
           <div className="flex flex-col gap-3 text-sm">
-            <p>Faire par Bénin Boost Digital Service</p>
-            <p>IFU : 0202442835502</p>
+            <p>Faire par Bénin Boost Digital Servic, IFU : 0202442835502</p>
             <a href="mailto:beninboostdigitalservice@gmail.com" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
               <Mail size={16} /> 
             </a>
-            <a href="tel:+2290145776256" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-              <Phone size={16} /> +229 01 45 77 62 56
-            </a>
-            <a href="tel:+22968226924" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-              <Phone size={16} /> +229 01 92 74 33 08
+            <a href="" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+              <Phone size={16} /> +229 01 92 74 33 08, +229 01 45 77 62 56
             </a>
             <a href="https://beninboostdigitalservice.github.io/b-ninboost3/" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
               https://beninboostdigitalservice.github.io/b-ninboost3/
