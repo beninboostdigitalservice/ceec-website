@@ -6,7 +6,7 @@ import logoFeunstim from "@/assets/logo-feunstim.jpg";
 const Footer = () => (
   <footer className="gradient-hero text-primary-foreground">
     <div className="container mx-auto px-3 py-16">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
         {/* Brand */}
         <div>
           <div className="flex items-center gap-3 mb-4">
@@ -22,7 +22,7 @@ const Footer = () => (
         {/* Links */}
         <div>
           <h4 className="font-display text-lg font-semibold mb-4">Navigation</h4>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-1">
             {[
               { href: "/", label: "Accueil" },
               { href: "/a-propos", label: "À propos" },
@@ -63,7 +63,7 @@ const Footer = () => (
           <div className="flex flex-col gap-3 text-sm">
             <p>Faire par Bénin Boost Digital Servic, IFU : 0202442835502</p>
             <a href="mailto:beninboostdigitalservice@gmail.com" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-              <Mail size={16} /> 
+              <Mail size={16} /> beninboostdigitalservice@gmail.com
             </a>
             <a href="" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
               <Phone size={16} /> +229 01 92 74 33 08, +229 01 45 77 62 56
