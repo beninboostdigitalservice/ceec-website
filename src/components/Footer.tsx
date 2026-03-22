@@ -68,12 +68,12 @@ const Footer = () => (
             <a href="" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
               <Phone size={16} /> +229 01 92 74 33 08, +229 01 45 77 62 56
             </a>
-            <a href="https://beninboostdigitalservice.github.io/b-ninboost3/" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-              https://beninboostdigitalservice.github.io/b-ninboost3/
-            </a>
             <div className="flex items-center gap-2 text-primary-foreground/70">
               <MapPin size={16} /> Abomey / Zou / Bénin
             </div>
+            <a href="https://beninboostdigitalservice.github.io/b-ninboost3/" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+              https://beninboostdigitalservice.github.io/b-ninboost3/
+            </a>
           </div>
         </div>
         
