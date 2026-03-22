@@ -58,7 +58,30 @@ const Footer = () => (
         </div>
       </div>
 
-     
+      
+        <div>
+          <h4 className="font-display text-lg font-semibold mb-4">Don</h4>
+          <div className="flex flex-col gap-3 text-sm">
+            Faire par Bénin Boost Digital Service 
+            IFU : 0202442835502
+            <a href="mailto:beninboostdigitalservice@gmail.com" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+              <Mail size={16} /> 
+            </a>
+            <a href="tel:+2290145776256" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+              <Phone size={16} /> +229 01 45 77 62 56
+            </a>
+            <a href="tel:+22968226924" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+              <Phone size={16} /> +229 01 92 74 33 08
+            </a>
+            <a href="https://beninboostdigitalservice.github.io/b-ninboost3/" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+              https://beninboostdigitalservice.github.io/b-ninboost3/
+            </a>
+            <div className="flex items-center gap-2 text-primary-foreground/70">
+              <MapPin size={16} /> Abomey / Zou / Bénin
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-sm text-primary-foreground/50">
         © {new Date().getFullYear()} CEEC — FEUNSTIM / UNSTIM. Tous droits réservés.
