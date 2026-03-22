@@ -58,12 +58,12 @@ const Footer = () => (
         </div>
       </div>
 
-      
+      {/* Don */}
         <div>
           <h4 className="font-display text-lg font-semibold mb-4">Don</h4>
           <div className="flex flex-col gap-3 text-sm">
-            Faire par Bénin Boost Digital Service 
-            IFU : 0202442835502
+            <p>Faire par Bénin Boost Digital Service</p>
+            <p>IFU : 0202442835502</p>
             <a href="mailto:beninboostdigitalservice@gmail.com" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
               <Mail size={16} /> 
             </a>
